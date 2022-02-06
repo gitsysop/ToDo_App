@@ -865,11 +865,11 @@
       "url": "_framework\/icudt_no_CJK.dat"
     },
     {
-      "hash": "sha256-n7lYVrWi1e8r0NHtwEUf5gu1y1nnsIFn1NUggoSEe4k=",
+      "hash": "sha256-Yp\/um2oBEWjmTNig9wtuJLNVe6z9hBWMZajgDEx03cs=",
       "url": "_framework\/ToDo_App.dll"
     },
     {
-      "hash": "sha256-MoDxQPUIhRS5G6VtwMxF35PiJCU58imfVzaPdgxb4LI=",
+      "hash": "sha256-0VkI5ulkIs\/Hv\/7kCLKwsOJC603ZaLbkgifkmWtl3Ps=",
       "url": "_framework\/ToDo_App.pdb"
     },
     {
@@ -877,9 +877,9 @@
       "url": "_framework\/blazor.webassembly.js"
     },
     {
-      "hash": "sha256-0yVCufkzP1qrDwp3QY\/4UhzDBd4MQOcyiPyQOnOYR34=",
+      "hash": "sha256-x351Mmb3V9pQsSainKXg0lQCMq7ZsI+iTHjCusNBdRg=",
       "url": "_framework\/blazor.boot.json"
     }
   ],
-  "version": "iPt\/Mf0F"
+  "version": "hweXetq8"
 };
