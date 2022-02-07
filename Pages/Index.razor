@@ -5,17 +5,24 @@
     <h1>To-Do</h1>
     <div class="input">
         <input type="text" @bind="myInput"/>
-        <button onclick="addToDo">Add</button>
+        <button @onclick="addToDo">Add</button>
     </div>
+
+    @foreach(var todo in todos)
+    {
+        @todo
+    }
 </div>
 
 @code
 {
     public string myInput { get; set; }
+    public List<string> todos = new List<string>();
 
     public void addToDo()
     {
-        Console.WriteLine(myInput);   
+        Console.WriteLine(myInput);
+        todos.Add(myInput);
     }
 
 }
