@@ -1,4 +1,5 @@
 ﻿@page "/"
+@using ToDo_App.Models
 
 <PageTitle>To-Do</PageTitle>
 <div class="container">
@@ -12,7 +13,7 @@
         var index = i;
         var todo = todos[i];
         <div class="item">
-            <div class="item-text">@todo</div> 
+            <div class="item-text">@todo.Title</div> 
             <div class="item-close" @onclick="@(() => removeTodo(index))">&times;</div>
         </div>
     }
@@ -23,11 +24,13 @@
 @code
 {
     public string myInput { get; set; }
-    public List<string> todos = new List<string>();
+    public List<Todo> todos = new List<Todo>();
 
     public void addToDo()
     {
-        todos.Add(myInput);
+        var todo = new Todo();
+        todo.Title = myInput;
+        todos.Add(todo);
         myInput = "";
     }
 
