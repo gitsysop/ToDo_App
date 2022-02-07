@@ -7,15 +7,17 @@
         <input type="text" @bind="myInput"/>
         <button @onclick="addToDo">Add</button>
     </div>
-
-    @foreach(var todo in todos)
+    @for(int i = 0; i < todos.Count; i++)
     {
+        var index = i;
+        var todo = todos[i];
         <div class="item">
             <div class="item-text">@todo</div> 
-            <div class="item-close">&times;</div>
+            <div class="item-close" @onclick="@(() => removeTodo(index))">&times;</div>
         </div>
-        
     }
+
+   
 </div>
 
 @code
@@ -25,9 +27,13 @@
 
     public void addToDo()
     {
-        Console.WriteLine(myInput);
         todos.Add(myInput);
         myInput = "";
+    }
+
+    public void removeTodo(int index)
+    {
+        todos.RemoveAt(index);
     }
 
 }
