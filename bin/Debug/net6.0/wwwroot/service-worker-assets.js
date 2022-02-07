@@ -13,7 +13,7 @@
       "url": "css\/bootstrap\/bootstrap.min.css.map"
     },
     {
-      "hash": "sha256-yuZxwzAuNVrBqI\/XJIcNogFk6qbSD8VupWacm0q5h5g=",
+      "hash": "sha256-XozuS4fB7j9538yqs7T+Sn4pNDxL51OOZVj9yIz3vgA=",
       "url": "css\/main.css"
     },
     {
@@ -865,11 +865,11 @@
       "url": "_framework\/icudt_no_CJK.dat"
     },
     {
-      "hash": "sha256-CdoCYNvOxYKi3ofExSEg2RI40oMeCIstQqGXRD7fwFE=",
+      "hash": "sha256-NHYYRnzyZMQt6FhkXJxDRLuGNyrPUXR4y3PUTt\/TnTQ=",
       "url": "_framework\/ToDo_App.dll"
     },
     {
-      "hash": "sha256-9bV1Fbs+fUKFSiWSn8XFn7kXOLatDhrNln+Q8u3VnOk=",
+      "hash": "sha256-Q1q6GXCp4A+wm0dKaOnPPO5DKs5vRdHySri0ikluuxQ=",
       "url": "_framework\/ToDo_App.pdb"
     },
     {
@@ -877,9 +877,9 @@
       "url": "_framework\/blazor.webassembly.js"
     },
     {
-      "hash": "sha256-VvDQqthdojI2KZENVcV9Whj9JJSqTf2dZ9Ba9WbQ2A0=",
+      "hash": "sha256-WqoogZeMOQragv7V+uHclA5UX4RCjfyKM1Zhzw00cCE=",
       "url": "_framework\/blazor.boot.json"
     }
   ],
-  "version": "Wgy9rFVr"
+  "version": "860jDjHg"
 };

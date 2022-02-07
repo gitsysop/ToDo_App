@@ -10,7 +10,11 @@
 
     @foreach(var todo in todos)
     {
-        @todo
+        <div class="item">
+            <div class="item-text">@todo</div> 
+            <div class="item-close">&times;</div>
+        </div>
+        
     }
 </div>
 
@@ -23,6 +27,7 @@
     {
         Console.WriteLine(myInput);
         todos.Add(myInput);
+        myInput = "";
     }
 
 }
