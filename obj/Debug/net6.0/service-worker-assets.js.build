@@ -1,7 +1,7 @@
 ﻿self.assetsManifest = {
   "assets": [
     {
-      "hash": "sha256-lDAEEaul32OkTANWkZgjgs4sFCsMdLsR5NJxrjVcXdo=",
+      "hash": "sha256-EHbFiZZJrqCvVi39LN0g0nLBtn0ojHV4ChIW\/N75VKE=",
       "url": "css\/app.css"
     },
     {
@@ -13,7 +13,7 @@
       "url": "css\/bootstrap\/bootstrap.min.css.map"
     },
     {
-      "hash": "sha256-XozuS4fB7j9538yqs7T+Sn4pNDxL51OOZVj9yIz3vgA=",
+      "hash": "sha256-hTWTuRArnPHriV2cbVpvgPFGLzxWxwepfb8xYsnK1lM=",
       "url": "css\/main.css"
     },
     {
@@ -865,11 +865,11 @@
       "url": "_framework\/icudt_no_CJK.dat"
     },
     {
-      "hash": "sha256-WXG0V7fOSX3Yv9ii4Ww1yqXQjlxnjWbMeUARTrVZxHU=",
+      "hash": "sha256-LMiXs4+V5XDj4pb8\/alHTC\/+RUa0MJDZQrOvaqaOZP4=",
       "url": "_framework\/ToDo_App.dll"
     },
     {
-      "hash": "sha256-LNn2TMX1OjdL2VRpQZR7BLhMO1ArP5QU\/X1euCKOQNs=",
+      "hash": "sha256-uB9l0mKuEnZ1ir\/HNSgX\/J+avlQPLgwZ35f5LiBBKrs=",
       "url": "_framework\/ToDo_App.pdb"
     },
     {
@@ -877,9 +877,9 @@
       "url": "_framework\/blazor.webassembly.js"
     },
     {
-      "hash": "sha256-Fw6R6BLWm5+xSGYWWW\/vzt1XPSO\/4sFFokSW6CWIh+w=",
+      "hash": "sha256-7XNjKUjLZwpxy3axDLRr4EKON1AM7VuRWNh+47Lf2hw=",
       "url": "_framework\/blazor.boot.json"
     }
   ],
-  "version": "++xTHgUm"
+  "version": "p8eie3xu"
 };
