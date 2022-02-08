@@ -16,20 +16,20 @@
     grid-template-columns: 1fr 50px;
 }
 
-    .input input {
-        color: #666;
-        font-size: 16px;
-        font-weight: bold;
-        padding: 5px;
-        outline: none;
-    }
+.input input {
+    color: #666;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 5px;
+    outline: none;
+}
 
-    .input button {
-        outline: none;
-        color: #fff;
-        border: none;
-        background: #c72c41;
-    }
+.input button {
+    outline: none;
+    color: #fff;
+    border: none;
+    background: #c72c41;
+}
 
 .item {
     width: 100%;

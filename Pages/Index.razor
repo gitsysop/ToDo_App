@@ -13,12 +13,10 @@
         var index = i;
         var todo = todos[i];
         <div class="item">
-            <div class="item-text">@todo.Title</div> 
+            <div class="@(todo.IsCompleted ? "item-text complete" : "item-text")" @onclick="@(() => setAsCompleted(todo))">@todo.Title</div> 
             <div class="item-close" @onclick="@(() => removeTodo(index))">&times;</div>
         </div>
-    }
-
-   
+    }  
 </div>
 
 @code
@@ -32,6 +30,11 @@
         todo.Title = myInput;
         todos.Add(todo);
         myInput = "";
+    }
+
+    public void setAsCompleted(Todo todo)
+    {
+        todo.IsCompleted = true;
     }
 
     public void removeTodo(int index)
